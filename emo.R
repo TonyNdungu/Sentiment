@@ -9,10 +9,10 @@ library(wordcloud)
 library(RColorBrewer)
 
 # Twitter API Oauth process.
-consumer_key <- 'T247avsV5cil8YUYuSYl25yCa'
-consumer_secret <- 'W0HPnGJp2XqsLpyhImjOgem29f0dcxIrkDdzO0aicv3nMDbGdy'
-access_token <- '367326351-nFSKL8lSzaFxoTKq2N0WYL8YgTimfReoVvBorNDv'
-access_secret <- '9dabbWazeHYRz3mHPseTA1O9YBmaMakUJvLgrfKRDigDC'
+consumer_key <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+consumer_secret <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_token <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_secret <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
