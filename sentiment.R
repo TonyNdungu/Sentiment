@@ -69,10 +69,9 @@ score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
   return(scores.df)
 }
 
-sample = c("You're awesome and I love you",
-           "I hate and hate and hate. So angry. Die!",
-           "Impressed and amazed: you are peerless in your achievement of
-           unparallelled mediocrity.")
+sample = c("I find your lack of faith disturbing",
+           "If you make yourself more than just a man, if you devote yourself to an ideal, you become something else entirely",
+           "Theatricality and deception are powerful agents to the uninitiated.")
 
 result = score.sentiment(sample, pos, neg)
 View(result)
